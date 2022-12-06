@@ -1,0 +1,1043 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    font-family: sans-serif;
+    background-color: #212529;
+    transition: 0.5s;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar-track{
+    background-color: #383b3f;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #636363;
+
+}
+::-webkit-scrollbar{
+    background-color: #858383;
+    width: 10px;
+}
+
+@keyframes h2{
+    from{
+
+        color: transparent;
+    }
+    to{
+        color: #01d28e;
+    }
+}
+.mynav ul{
+    margin: 0 auto;
+}
+.mynav ul li{
+    margin: 0 auto;
+    margin: 0 15px;
+    transition: 0.5s;
+}
+.myli1{
+    color: #01d28e;
+}
+.a{
+    transition: 0.5s;
+}
+.a:hover{
+    color: #01d28e !important;
+    transition: 0.5s;
+}
+.d1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg_1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.d11{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.288) ;
+}
+.myheadertxt{
+    width: fit-content;
+    height: fit-content;
+    margin: 15% auto;
+}
+.h2fast{
+    font-size: 40px;
+    color: #01d28e;
+    font-weight: bold;
+    text-align: center;
+    animation-name: h2;
+    animation-duration: 1s;
+    transition: 1s;
+}
+.psmall{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.h3last{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+@media (max-width:600px) {
+    .myheadertxt{
+        width: 90%;
+        margin: 25% auto;
+    }
+    .h2fast{
+        font-size: 24px;
+        color: #01d28e;
+        font-weight: bold;
+        text-align: center;
+    }
+    .psmall{
+        font-size: 14px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 20;
+        padding: 0 10px;
+    }
+    .h3last{
+        font-size: 14px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 20;
+
+    }
+}
+
+/* -----------responsived for mobile and laptop  ---------*/
+
+/* --------------- second div -----------------*/
+
+.d2{
+    width: 100%;
+    height: 100vh;
+    background-color: #212529;
+}
+.d2title{
+    color: #1089ff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+.d2title2{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.dad{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    width: 30%;
+    height: 100%;
+    background-color:white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.card2{
+    width: 30%;
+    height: 100%;
+    background-color:white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.card3{
+    width: 30%;
+    height: 100%;
+    background-color:white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.dad img{
+    width: 100%;
+    height: 60%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+.title{
+    font-size: 20px;
+    color: black;
+    margin-left: 5%;
+}
+
+.price{
+    font-size: 18px;
+    color: #1089ff;
+    text-align: right;
+}
+.titleprice{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+}
+.btn1{
+    width: 35%;
+    height: 11%;
+    background-color: #1089ff;
+    border: 1px solid #1089ff;
+    border-radius: 7px;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-weight: 300;
+    color:white;
+    transition: 0.5s;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: #0855a1;
+    border: 0.5px solid #0855a1;
+    transition: 0.5s;
+
+}
+.btn2{
+    width: 35%;
+    height: 11%;
+    background-color: #01d28e;
+    border: 1px solid #01d28e;
+    border-radius: 7px;
+    margin-left: 5%;
+    margin-top: 20px;
+    font-weight: 300;
+    color:white;
+    transition: 0.5s;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: #038b5e;
+    border: 0.5px solid #038b5e;
+    transition: 0.5s;
+}
+@media (max-width:700px) {
+    .d2{
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+    .dad{
+        display: block;
+    }
+    .card1{
+        width: 90%;
+        margin: 50px auto;
+    }
+    .card2{
+        width: 90%;
+        margin: 50px auto;
+    }
+    .card3{
+        width: 90%;
+        margin: 50px auto;
+        
+    }
+    .btn1{
+        height: 30%;
+        width: 35%;
+        margin-bottom: 5%;
+    }
+    .btn2{
+        height: 30%;
+        width: 35%;
+        margin-bottom: 5%;
+    }
+    .price{
+        font-size: 16px;
+    }
+    .d2title2{
+        font-size: 28px;
+    }
+}
+@media (min-width:701px) and (max-width:1000px) {
+    .titleprice{
+        width: 90%;
+        height: fit-content;
+        display: block;
+        
+        margin-top: 7%;
+    }
+    .price{
+        font-size: 18px;
+        color: #1089ff;
+        text-align: left;
+        margin-left: 5%;
+    }
+    .title{
+        font-size: 18px;
+        color: black;
+        margin-left: 5%;
+    }
+    .btn1{
+        font-size:12px;
+        height: 7%;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    .btn2{
+        font-size:12px;
+        height: 7%;
+        width: 40%;
+        margin-left: 2%;
+        margin-bottom: 20px;
+    }
+    .card1{
+        height: 90%;
+        margin-top: 50px;
+    }
+    .card2{
+        height: 90%;
+        margin-top: 50px;
+    }
+    .card3{
+        height: 90%;
+        margin-top: 50px;
+    }
+
+}
+
+
+/*   3rd div   */
+.d3{
+    width: 100%;
+    height: 100vh;
+    background-color: #212529;
+    padding-top:20px;
+    position: relative;
+}
+.innerd3{
+    width: 60%;
+    height: 100%;
+    background-color: #01d28e;
+    margin-left: 40%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1;
+}
+.d3 img{
+    width: 45%;
+    height: 77%;
+    z-index: 3;
+    position: absolute;
+    left: 10%;
+    top: 13%;
+    border-radius: 10px;
+}
+.d3title{
+    font-size:16px;
+    font-weight: bold;
+    color: #0855a1;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.d3secondtitle{
+    font-size: 34px;
+    font-weight: bold;
+    margin-left: 30%;
+}
+.topic1{
+    font-size: 18px;
+    margin-left: 30%;
+    margin-top:20px;
+}
+.topic2{
+    font-size: 18px;
+    margin-left: 30%;
+    margin-top:30px;
+}
+.d3btn{
+    width: 170px;
+    height: 50px;
+    background-color: #0855a1;
+    border: 10px solid #0855a1;
+    border-radius: 10px;
+    color: white;
+    margin-left: 30%;
+    margin-top:20px;
+    transition: 0.5s;
+}
+.d3btn:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #096bcc;
+    border: 2px solid #096bcc;
+}
+@media (max-width:500px) {
+    .d3{
+        height: fit-content;
+    }
+    .innerd3{
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .d3 img{
+        border-radius: 10px;
+        width: 150px;
+        height: 120px;
+        margin-left: 25%;
+        margin-top: -32%;
+        display: none;
+    }
+    .d3title{
+        margin-left: 5%;
+    }
+    .d3secondtitle{
+        margin-left: 5%;
+        font-size: 28px;
+    }
+    .topic1{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 17px;
+    }
+    .topic2{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 17px;
+        color: rgb(66, 66, 66);
+    }
+    .d3btn{
+        margin-bottom: 5%;
+        margin-left: 17%;
+    }
+}
+@media (min-width:501px) and (max-width:600px) {
+    .d3{
+        height: fit-content;
+    }
+    .innerd3{
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .d3btn{
+        margin-bottom: 20px;
+    }
+    .d3title{
+        margin-left: 5%;
+    }
+    .d3secondtitle{
+        margin-left: 5%;
+        font-size: 28px;
+    }
+    .topic1{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 17px;
+    }
+    .topic2{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 17px;
+        color: rgb(66, 66, 66);
+    }
+    .d3btn{
+        margin-bottom: 5%;
+        margin-left: 30%;
+    }
+    .d3 img{
+        display: none;
+    }
+}
+@media (min-width:601px) and (max-width:720px) {
+    .d3{
+        height: fit-content;
+    }
+    .d3btn{
+        margin-bottom: 20px;
+    }
+    .d3 img{
+    margin: auto;
+    height: 50%;
+    }
+}
+@media (min-width:721px) {
+    .d3{
+        height: fit-content;
+    }
+    .d3btn{
+        margin-bottom: 20px;
+    }
+}
+
+
+/*    4th div    */
+
+.d4{
+    width: 100%;
+    height: 100vh;
+    background-color: #212529;
+}
+.d4title{
+    font-size: 18px;
+    color: #1089ff;
+    text-align: center;
+    margin-top: 50px;
+}
+.d4title2{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.icondad{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.momicon{
+    width: fit-content;
+    height: fit-content;
+}
+.i1{
+    color: rgb(255, 255, 255);
+    z-index: 999999999;
+    font-size: 48px;
+    margin: auto;
+}
+.i2{
+    color: rgb(255, 255, 255);
+    z-index: 999999999;
+    font-size: 48px;
+    margin: auto;
+}
+.i3{
+    color: rgb(255, 255, 255);
+    z-index: 999999999;
+    font-size: 48px;
+    margin: auto;
+}
+.i4{
+    color: rgb(255, 255, 255);
+    z-index: 999999999;
+    font-size: 48px; 
+    margin: auto;
+}
+.dstyle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #125597;
+    justify-items: center;
+    display: flex;
+    margin: auto;
+}
+
+.d44{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #125597;
+    justify-items: center;
+    display: flex;
+    margin: auto;
+
+}
+
+.hstyle{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: beige;
+    margin-top:30px;
+}
+
+.pstyle{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color:#999999;
+    line-height: 30px;
+    margin-top: 30px;
+}
+@media (max-width:900px) {
+    .d4{
+        height: fit-content;
+    }
+    .icondad{
+        display: block;
+    }
+    .momicon{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+        padding-bottom: 20px;
+    }
+    .d4title2{
+        font-size: 28px;
+    }
+}
+
+/*      5th div      */
+
+.d5{
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    background-image: url(about.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+.innerd5{
+    width: 42%;
+    height: 100%;
+    background-color: #01d28e;
+    transform: skewx(-20deg);
+    position: absolute;
+    left: -110px;
+    z-index: 9;
+}
+.innerr{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
+    z-index: 8;
+}
+.innerr p{
+    font-size: 40px;
+    position: absolute;
+    right: 120px;
+    top: 100px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+@media (max-width:800px) {
+    .d5{
+        display: none;
+    }
+}
+@media (min-width:801px) {
+    .d5{
+        display: block;
+    }
+    .innerr p{
+        font-size: 30px;
+        line-height: 50px;
+        margin: auto;
+    }
+}
+/*     6th div     */
+.d6{
+    width: 100%;
+    height: 100vh;
+    background-color: #212529;
+}
+.d6title1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #1089ff;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.d6title2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: white;
+    position: relative;
+}
+.d6dad{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+.pro1{
+    width: 27%;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 7px;
+    text-align: center;
+}
+.pro1 h5{
+    text-align:center;
+    color:#999999;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    margin-top: 20px;
+}
+.pro1 h4{
+    font-size: 20px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+.pro1 h3{
+    color:#1089ff;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    margin-top: 20px;
+}
+.pro1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+
+@media (max-width:600px) {
+    .d6{
+        height: fit-content;
+    }
+    .d6dad{
+        display: block;
+    }
+    .ourcard{
+        width:90%;
+        margin:auto;
+        margin-bottom: 50px;
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+}
+@media (min-width:601px) and (max-width:1000px) {
+    .pro1 h5{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .pro1 h4{
+        font-size: 16px;
+    }
+    .pro1 h3{
+        color:#1089ff;
+        font-family: 'Poppins', sans-serif;
+        font-size:16px;
+        margin-top: 20px;
+    }
+}
+/* 7th div  */
+
+.d7{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.blog{
+    text-align: center;
+    font-size: 18px;
+    color: #1089ff;
+    margin-top: 40px;
+    font-weight: bold;
+
+}
+.recent{
+    text-align: center;
+    font-size: 40px;   
+    color: #000000cc; 
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.d7dad{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.d7card{
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #212529;
+    border-radius: 5px;
+}
+.d7card img{
+    width: 100%;
+    height: 50%;
+}
+.d7card h5{
+    font-size: 16px;
+    color: #1089ff;
+    margin-top: 20px;
+    margin-left: 20px;
+    word-spacing: 20px;
+    font-weight: bold;
+}
+.d7card h2{
+    font-size: 24px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.d7card button{
+    width: 150px;
+    height: 35px;
+    background-color: #096bcc;
+    border: 1px solid #096bcc ;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.5s;
+}
+.d7card button:hover{
+    cursor: pointer;
+    background-color: #044383;
+    border: 2px solid #044383 ;
+    transition: 0.5s;
+}
+@media (max-width:800px) {
+    .d7{
+        height: fit-content;
+    }
+    .d7dad{
+        display: block;
+        padding-bottom: 20px;
+    }
+    .d7card{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+
+    }
+    .d7 button{
+        margin-bottom:20px;
+    }
+}
+@media (min-width:801px) and (max-width:960px) {
+    .d7{
+        height: fit-content;
+    }
+
+    .d7card h2{
+        font-size: 18px;
+        color: white;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .d7 button{
+        margin-bottom:20px;
+    }
+
+}
+/*    8th div    */
+.d8{
+    width: 100%;
+    height: 35vh;
+    background-color: #f8f9fa;
+    display: block;
+    margin-top: 0;
+}
+.c60{
+    font-size: 50px;
+    color: #096bcc;
+    font-weight: bold;
+    display: inline;
+    word-spacing: 10px;
+}
+.myp8{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 24px;
+}
+.d8dad{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.innerd8{
+    width: 25%;
+    height: 100%;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.innerd8blue{
+    width: 25%;
+    height: 100%;
+    padding-top: 60px;
+    padding-left: 50px;
+    background-color: #1088ff7c;
+}
+@media (max-width:500px) {
+    .d8{
+        height: fit-content;
+        margin-top: 0;
+    }
+    .d8dad{
+        display: block;
+    }
+    .innerd8{
+        width: 100%;
+        padding: 50px 50px;
+    }
+    .innerd8blue{
+        width: 100%;
+        padding: 50px 50px;
+    }
+}
+@media (min-width:501px) and (max-width:920px) {
+    .d8{
+        height: fit-content;
+    }
+
+    .innerd8{
+        padding: 50px 50px;
+    }
+    .innerd8blue{
+        padding: 50px 40px;
+
+    }
+    .c60{
+        font-size: 40px;
+    }
+    .myp8{
+        font-size: 18px;
+    }
+}
+@media (min-width:1000px) and (max-width:1440px) {
+    .d8{
+        height: fit-content;
+    }
+
+    .innerd8{
+        padding: 50px 50px;
+    }
+    .innerd8blue{
+        padding: 50px 40px;
+
+    }
+    .c60{
+        font-size: 40px;
+    }
+    .myp8{
+        font-size: 20px;
+    }
+}
+/*  footer  */
+
+footer{
+    width: 100%;
+    height: 88vh;
+    background-color: #212529;
+    display: flex;
+    justify-content: space-between;
+}
+.myfootericon{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footertxt{
+    font-size: 18px;
+    color: rgb(194, 194, 194);
+    margin-top: 50px;
+    line-height: 2;
+}
+.footericons{
+    width: 200px;
+    height: 70px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+
+}
+.mylogoo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #999999;
+    margin: auto;
+    padding: 20px 20px;
+    transition: 0.5s;
+}
+.logoo{
+    color:white;
+    margin: auto;
+    padding: 15px 17px;
+    border-radius: 50%;
+    background-color: #38393a;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.logoo1{
+    color:white;
+    margin: auto;
+    padding: 15px 22px;
+    border-radius: 50%;
+    background-color: #38393a;
+    transition: 0.5s;
+}
+
+.list1{
+    margin-top: 50px;
+    width: 20%;
+    height: 90%;
+    margin-right: 10px;
+}
+.list1title{
+    font-size: 22px;
+    font-weight: bold;
+    color: #096bcc;
+}
+.list1links{
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(194, 194, 194);
+    line-height: 3;
+    transition: 0.5s;
+}
+.lasttxt{
+    text-align: center;
+    color: #999999;
+    background-color: #212529;
+    clear: both;
+    padding-bottom: 20px;
+}
+.mylasthover:hover{
+    cursor: pointer;
+    color: white;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.mylasthover{
+    transition: 0.5s;
+}
+@media (max-width:700px) {
+    footer{
+        display: block;
+        height: fit-content;
+    }
+    .list1{
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .lasttxt{
+        margin-top: 50px;
+    }
+}
